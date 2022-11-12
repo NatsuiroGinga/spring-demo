@@ -14,7 +14,6 @@ import java.util.List;
 public class MutablePropertyValues implements Iterable<PropertyValue>{
 
     // 定义List集合对象, 用来存储PropertyValue对象
-    // TODO: 12/11/2022 为什么要用List来存储PropertyValue对象呢？ 线程安全吗？ Map?
     private final List<PropertyValue> propertyValueList;
 
     public MutablePropertyValues() {
